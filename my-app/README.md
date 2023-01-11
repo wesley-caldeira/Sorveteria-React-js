@@ -27,7 +27,7 @@
 # Aparencia do projeto para multiplas telas:
 
 
-Acesse a pasta que contem imagens e videos de todos os layout do projeto <a href="my-app\public\assets\layout">Click aqui</a>
+Acesse a pasta que contem imagens e videos de todos os layout do projeto <a href="https://github.com/wesley-caldeira/Sorveteria-React-js/tree/main/my-app/public/assets/layout">Click aqui</a>
 
 ## Redes Sociais para contato 
 
