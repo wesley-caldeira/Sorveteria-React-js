@@ -1,0 +1,75 @@
+.banner-limite-s{
+    background-image: url('../../../../public/assets/banner-sabores.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center center;
+        height: 1024px;
+    
+}
+
+.banner-limite-s h1 {
+    margin: 0px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    height: 1024px;
+    
+    font-size: 85px;
+
+    color: #fff;
+    text-shadow: rgb(57, 53, 53) 0.1em 0.1em 0.2em;
+}
+
+.secao-tipo-sabor h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.secao-tipo-sabor span{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ .secao-tipo-sabor{
+    text-align: center;
+
+    max-width: 1024px;
+    margin: 0px auto;
+}
+.box-sabores {
+    margin-top: 40px;
+    margin-left: 20px;
+    box-shadow: 0 0 1em rgb(132, 132, 132)
+}
+.box-sabores img{
+    text-align: center;
+    height: 250px;
+    width: 250px;
+}
+.box-sabores p {
+    width: 225px;
+    padding-left: 18px;
+}
+.sabores-flex{
+    margin: 20px;
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 425px) {
+    .banner-limite-s h1{
+        font-size: 30px;
+    }
+    .banner-limite-s{
+        height: 900px;
+    }
+    .sabores-flex {
+        justify-content: center;
+    }
+}
